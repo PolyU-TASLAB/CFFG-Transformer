@@ -1,0 +1,55 @@
+{
+  "run_id": "const3-trial7-tdoa3-manual3",
+  "source_split": "test",
+  "exploratory": true,
+  "source_kind": "complete_ros_bag_replay",
+  "source_directory": "reports/ros1_cffg_complete_20261010",
+  "checkpoint_sha256": "3ba07aabc0b143246c790da02a1dc6a727c2ffb053dc6d7e4ac4b5755013ed2f",
+  "duration_s": 118.0,
+  "wall_s": 1822.0352914470132,
+  "state_count": 4043,
+  "valid_samples": 4034,
+  "excluded_truth_samples": 9,
+  "truth_offset_s": -0.00499999999999956,
+  "truth_maximum_gap_s": 0.02,
+  "alignment": "audited time offset; no spatial fitting",
+  "quality_requests": 4012,
+  "quality_fallbacks": 0,
+  "metrics": {
+    "baseline": {
+      "rmse_m": 0.3571993129266182,
+      "p95_m": 0.6617495080901954,
+      "maximum_m": 2.777280217046897,
+      "last_20_percent_rmse_m": 0.4702122264521437
+    },
+    "cffg": {
+      "rmse_m": 0.10581059459535185,
+      "p95_m": 0.18762575208730647,
+      "maximum_m": 0.32821689431387496,
+      "last_20_percent_rmse_m": 0.11503666959330193
+    }
+  },
+  "rmse_improvement_percent": 70.3777160912151,
+  "provenance": {
+    "baseline_snapshot.json": "da07eba45034e58189753a1648905ea28ff2a2c88fa8ed2d35425c62f6059d79",
+    "cffg_snapshot.json": "2a6470be5628298fe2fb8e961a264909fc6d5c75ae8e0585feb9cd6698669710",
+    "input_manifest.json": "99aa25b6db8ba5fae8c9d2a24eb8e95117d5a50cbf9eac8bd083d9e59488cf8b",
+    "status.json": "8046dd8889c1be08fb9d68fe24e25f87b4d04ee47f6aff1b057e4e7cd8540de3",
+    "verification.json": "d34f68ec766b4e52af3ec1d509ed4507f9e450531bccdb17adca1a36b005d69a",
+    "events.csv": "246e0663f80c6b2555ff3e3fd1f01288a9b19d17801321bd6a13536078a344b4"
+  },
+  "truth_csv_sha256": "99fff842d9ca822df2b88f22283d8c819c82b069e2947b09e4186a688e5af36f",
+  "time_alignment_audit_sha256": "cddc67ebd7799b1fbeba45d88285ca1042e98fdcd8a6f185d50166bd0727f24a",
+  "time_alignment_configuration_sha256": "f4b6cda50da74d58891111e61ffaeeaae472b233c9c781080b0373ffbfc3fbb7",
+  "video": "assets/cffg/const3.mp4",
+  "video_sha256": "1d3a7758161296af282e9f15a32759236261e4ab97edb6ae997c33e80ab2c87f",
+  "video_fps": 24,
+  "video_speed": 2.0,
+  "video_frames": 1465,
+  "video_duration_s": 61.041666666666664,
+  "video_annotation_languages": [
+    "en",
+    "zh-CN"
+  ],
+  "poster": "assets/cffg/const3_poster.png"
+}
