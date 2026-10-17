@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="CFFG: temporal Transformer measurement correction for UWB/IMU localization. Trajectory comparisons and test-set results.">
   <title>CFFG — Learned measurements. Physics-based estimation.</title>
-  <link rel="stylesheet" href="assets/cffg/style.css">
-  <script defer src="assets/cffg/i18n.js"></script>
-  <script defer src="assets/cffg/data.js"></script>
-  <script defer src="assets/cffg/app.js"></script>
+  <link rel="stylesheet" href="website/style.css">
+  <script defer src="website/i18n.js"></script>
+  <script defer src="website/data.js"></script>
+  <script defer src="website/app.js"></script>
 </head>
 <body>
   <a class="skip" href="#main" data-zh="跳至主要内容">Skip to content</a>
@@ -29,13 +29,13 @@
       <div class="legend"><span class="baseline" data-zh="传统因子图">Baseline</span><span class="cffg">CFFG</span><span class="truth" data-zh="Vicon 真值">Vicon truth</span></div>
       <div class="video-grid">
         <article class="video-card" data-run="const3">
-          <div class="video-label"><h3>Const3 <span>TDOA3</span></h3><a href="assets/cffg/const3.mp4" download data-zh="下载视频 ↗">Download video ↗</a></div>
-          <video controls playsinline preload="metadata" poster="assets/cffg/const3_poster.png" aria-label="Const3 trajectory comparison" data-zh-aria="Const3 轨迹效果对比"><source src="assets/cffg/const3.mp4" type="video/mp4"><a href="assets/cffg/const3.mp4" data-zh="下载视频">Download video</a></video>
+          <div class="video-label"><h3>Const3 <span>TDOA3</span></h3><a href="website/const3.mp4" download data-zh="下载视频 ↗">Download video ↗</a></div>
+          <video controls playsinline preload="metadata" poster="website/const3_poster.png" aria-label="Const3 trajectory comparison" data-zh-aria="Const3 轨迹效果对比"><source src="website/const3.mp4" type="video/mp4"><a href="website/const3.mp4" data-zh="下载视频">Download video</a></video>
           <div class="case-metrics"><div><span class="baseline-text" data-zh="传统 RMSE">Baseline RMSE</span><strong id="baseline-const3">—</strong></div><div><span class="cffg-text">CFFG RMSE</span><strong id="cffg-const3">—</strong></div><div><span data-zh="RMSE 降低">RMSE reduction</span><strong class="accent" id="gain-const3">—</strong></div></div>
         </article>
         <article class="video-card" data-run="const4">
-          <div class="video-label"><h3>Const4 <span>TDOA2</span></h3><a href="assets/cffg/const4.mp4" download data-zh="下载视频 ↗">Download video ↗</a></div>
-          <video controls playsinline preload="metadata" poster="assets/cffg/const4_poster.png" aria-label="Const4 trajectory comparison" data-zh-aria="Const4 轨迹效果对比"><source src="assets/cffg/const4.mp4" type="video/mp4"><a href="assets/cffg/const4.mp4" data-zh="下载视频">Download video</a></video>
+          <div class="video-label"><h3>Const4 <span>TDOA2</span></h3><a href="website/const4.mp4" download data-zh="下载视频 ↗">Download video ↗</a></div>
+          <video controls playsinline preload="metadata" poster="website/const4_poster.png" aria-label="Const4 trajectory comparison" data-zh-aria="Const4 轨迹效果对比"><source src="website/const4.mp4" type="video/mp4"><a href="website/const4.mp4" data-zh="下载视频">Download video</a></video>
           <div class="case-metrics"><div><span class="baseline-text" data-zh="传统 RMSE">Baseline RMSE</span><strong id="baseline-const4">—</strong></div><div><span class="cffg-text">CFFG RMSE</span><strong id="cffg-const4">—</strong></div><div><span data-zh="RMSE 降低">RMSE reduction</span><strong class="accent" id="gain-const4">—</strong></div></div>
         </article>
       </div>
@@ -43,7 +43,7 @@
     <section id="results" class="section">
       <div class="section-heading"><p class="eyebrow" data-zh="02 / 测试集结果">02 / TEST RESULTS</p><h2 data-zh="完整测试集指标对比">Full test-set comparison</h2><p data-zh="V3 R1-S · 六条测试轨迹 · 三维位置误差，单位 m。">V3 R1-S · Six test trajectories · 3D position error in meters.</p></div>
       <div class="table-scroll" tabindex="0" role="region" aria-label="Test-set metrics" data-zh-aria="测试集指标表"><table><caption class="sr-only" data-zh="传统因子图与 CFFG 的测试集三维位置误差">Test-set 3D position errors for the baseline factor graph and CFFG</caption><thead><tr><th scope="col" data-zh="测试轨迹">Test trajectory</th><th scope="col" data-zh="传统 RMSE">Baseline RMSE</th><th scope="col">CFFG RMSE</th><th scope="col" data-zh="RMSE 降低">RMSE reduction</th><th scope="col" data-zh="传统 P95">Baseline P95</th><th scope="col">CFFG P95</th></tr></thead><tbody id="results-body"></tbody></table></div>
-      <div class="table-note"><span data-zh="RMSE：均方根误差；P95：误差的第 95 百分位。">RMSE: root mean square error. P95: 95th percentile error.</span><a href="assets/cffg/previous_all_metrics.csv" download data-zh="下载结果 CSV ↗">Download results CSV ↗</a></div>
+      <div class="table-note"><span data-zh="RMSE：均方根误差；P95：误差的第 95 百分位。">RMSE: root mean square error. P95: 95th percentile error.</span><a href="website/previous_all_metrics.csv" download data-zh="下载结果 CSV ↗">Download results CSV ↗</a></div>
     </section>
   </main>
   <footer><a class="brand" href="#intro">CFFG<span class="brand-sub">V3 R1-S</span></a><span>UWB / IMU · 2026.10</span></footer>

@@ -42,7 +42,7 @@
     "truth_csv_sha256": "0b1a8d09e65d632caaef18fc9c10687fc4a925bbbb1dc88b467a7a73047779db",
     "time_alignment_audit_sha256": "cddc67ebd7799b1fbeba45d88285ca1042e98fdcd8a6f185d50166bd0727f24a",
     "time_alignment_configuration_sha256": "f4b6cda50da74d58891111e61ffaeeaae472b233c9c781080b0373ffbfc3fbb7",
-    "video": "assets/cffg/const4.mp4",
+    "video": "website/const4.mp4",
     "video_sha256": "e9f5a5eaf78dbb4ef091852865f944edf83cdb5ac227f1d01d5b49d1b0ff9beb",
     "video_fps": 24,
     "video_speed": 2.0,
@@ -52,7 +52,7 @@
       "en",
       "zh-CN"
     ],
-    "poster": "assets/cffg/const4_poster.png"
+    "poster": "website/const4_poster.png"
   },
   "time": [
     0.0065926,

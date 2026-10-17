@@ -46,7 +46,7 @@
       "truth_csv_sha256": "99fff842d9ca822df2b88f22283d8c819c82b069e2947b09e4186a688e5af36f",
       "time_alignment_audit_sha256": "cddc67ebd7799b1fbeba45d88285ca1042e98fdcd8a6f185d50166bd0727f24a",
       "time_alignment_configuration_sha256": "f4b6cda50da74d58891111e61ffaeeaae472b233c9c781080b0373ffbfc3fbb7",
-      "video": "assets/cffg/const3.mp4",
+      "video": "website/const3.mp4",
       "video_sha256": "1d3a7758161296af282e9f15a32759236261e4ab97edb6ae997c33e80ab2c87f",
       "video_fps": 24,
       "video_speed": 2.0,
@@ -56,7 +56,7 @@
         "en",
         "zh-CN"
       ],
-      "poster": "assets/cffg/const3_poster.png"
+      "poster": "website/const3_poster.png"
     },
     {
       "run_id": "const4-trial7-tdoa2-manual1",
@@ -101,7 +101,7 @@
       "truth_csv_sha256": "0b1a8d09e65d632caaef18fc9c10687fc4a925bbbb1dc88b467a7a73047779db",
       "time_alignment_audit_sha256": "cddc67ebd7799b1fbeba45d88285ca1042e98fdcd8a6f185d50166bd0727f24a",
       "time_alignment_configuration_sha256": "f4b6cda50da74d58891111e61ffaeeaae472b233c9c781080b0373ffbfc3fbb7",
-      "video": "assets/cffg/const4.mp4",
+      "video": "website/const4.mp4",
       "video_sha256": "e9f5a5eaf78dbb4ef091852865f944edf83cdb5ac227f1d01d5b49d1b0ff9beb",
       "video_fps": 24,
       "video_speed": 2.0,
@@ -111,23 +111,23 @@
         "en",
         "zh-CN"
       ],
-      "poster": "assets/cffg/const4_poster.png"
+      "poster": "website/const4_poster.png"
     }
   ],
   "previous_evaluation_manifest_sha256": "539364ffae0908293ee70c858d105ba4a7fbc0e16fe890f0b76c1394475025b8",
   "assets": {
     "app.js": "7c6f245270a00ad91343411c2f94ad1ee8454a2b60bba602a1cd3f59921aaa43",
     "const3.mp4": "1d3a7758161296af282e9f15a32759236261e4ab97edb6ae997c33e80ab2c87f",
-    "const3_data.json": "da9069f0ef98fefbe2ad1084832b808eaa40277a956f8a6c9d5f24c039ac8682",
+    "const3_data.json": "60a77801976267b2c1c6ddcae835af74dabf68003c5d9fc144f43eeb37cf44dc",
     "const3_poster.png": "8cc086af8f734ab10dc92edc7b081433385a51974d8f1ad022bd420efdeb3b48",
     "const3_states.csv": "59c89911a339d1797dd105254c7d1553d70211a5cbfb9c13ee569627ea6ca7ea",
-    "const3_summary.json": "2b4a39865b10cae0ce6ff40a01b8d8bb3efe31376fd260c87bde3548ad562087",
+    "const3_summary.json": "1cb3fb6dbd6b619dbf6a891702fde21282f99c82cc78dd9011bdc2f28eab18c6",
     "const4.mp4": "e9f5a5eaf78dbb4ef091852865f944edf83cdb5ac227f1d01d5b49d1b0ff9beb",
-    "const4_data.json": "55612c17400737d102ed6325603201efae6644ac7d0abb1f781a06452693d130",
+    "const4_data.json": "f850999157b5b5e7296703f2c5c789b4e6196a3b656e7572f0c4a2cb49afd138",
     "const4_poster.png": "f97d1fce2062e0ac0662e80d2d4d2325b95326872a9ed6fb6ce43a2803194262",
     "const4_states.csv": "f60c293468d5d6ddb08e3f688cc09c6c67365e642b582b483ba2d52a7a199307",
-    "const4_summary.json": "d0563c0d9e7e51612785551b1400635d3f2735570f8db71fd9caffc5ddcb4c70",
-    "data.js": "3fec3b7b4b569edcd7537e897901c68d038df628fd434af09e9ea374b0cc7808",
+    "const4_summary.json": "2b4fd16a617fcbf1a323e0a773ef7324d9146796dbd2746659810a284487f95b",
+    "data.js": "c9d8ca87bd2a2ac0b15ebc83e186819084fe574bab1ef49c402c88d96de0976c",
     "i18n.js": "23ffb5c69916acd642f0f85b536b2bb9b6c066f36aa3816bffcf8aad639b3376",
     "previous_all_metrics.csv": "552fdc8e65f4b41306478ed275016f8644d02d589a3158c3a540c0b40c13ec3e",
     "style.css": "e0d163d1e1b0782a91295fc2eddc9762ca414cf988b056655e13b01b54c41aa4"
